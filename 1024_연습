@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        //[1]
+        // var age = prompt("당신의 나이는?", "0");
+        // if (age >= 20) {
+        //     document.write("당신은 성인입니다.");
+
+        // } else {
+        //     document.write("당신은 미성년자입니다.");
+
+        // }
+
+
+        //[2]
+        // var 준;
+        // if (prompt("입력?") == "1") {
+        //     준 = "<h1>멋쟁이 토마토</h1>"
+        // } else {
+        //     준 = "<h1>기분좋은 토마토</h1>"
+        // }
+
+        // document.write(준);
+
+        //[3]
+        // var a = true;
+        // var b = false;
+        // var c = 10 > 5;
+        // var d = Boolean(null);
+
+        // document.write(a, "<br>");
+        // document.write(b, "<br>");
+        // document.write(c, "<br>");
+        // document.write(d, "<br>");
+
+        //[4]
+        var num1 = prompt("num1?");
+        var num2 = prompt("num2?");
+        var result;
+        result = Number(num1) + Number(num2);
+        document.write(result, "<br>");
+        result = num1 - num2;
+        document.write(result, "<br>");
+        result = num1 * num2;
+        document.write(result, "<br>");
+        result = num1 / num2;
+        document.write(result, "<br>");
+        result = num1 % num2;
+        document.write(result, "<br>");
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
