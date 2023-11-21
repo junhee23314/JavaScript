@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11/21</title>
+</head>
+
+<body>
+    <h2>배열(Array)</h2>
+
+    <script>
+        // 성적- 문학, 체육, DB, 정보
+        let ary = [70, 100, 98, 99];
+        //    [0] [1] [2] [3]
+
+        document.write(`문학: ${ary[0]}<br>`);
+        document.write(`체육: ${ary[1]}<br>`);
+        document.write(`DB: ${ary[2]}<br>`);
+        document.write(`정보: ${ary[3]}<br>`);
+
+
+    </script>
+
+    <h2>객체 리터럴(Object Literal)</h2>
+    <script>
+        let ol = {
+            '문학': 70,
+            '체육': 100,
+            'DB': 98,
+            '정보': 99
+        }
+        // key  value
+
+
+
+        for (let i in ol) {
+            document.write(`${i}: ${ol[i]}<br>`);
+            // key  value
+        }
+
+        // document.write(`문학: ${ol['문학']}<br>`);
+        // document.write(`체육: ${ol['체육']}<br>`);
+        // document.write(`DB: ${ol['DB']}<br>`);
+        // document.write(`정보: ${ol['정보']}<br>`);
+
+
+    </script>
+<h2>함수(function)</h2>
+
+
+    <script>
+        // var - 재선언이 가능
+        // let - 재선언이 불가능, 값을 바꾸는 건 가능
+        // const - 재선이 불가능, 값을 바꾸는 것도 불가능
+        // const f = function () {
+        //     alert("함수를 호출하셨네요?")
+
+        // }
+
+        const f = function 함수(name) {
+            alert(name + "님, 함수를 호출하셨네요?")
+
+        }
+
+
+    </script>
+
+    <input type="button" value="호출" onclick="f('멋쟁이 토마토')">
+
+    <h2>객체(Object)</h2>
+    <script>
+        const person = {
+            name: '멋쟁이토마토',
+            age: 16,
+            inAdult: false,
+
+            f: function () {
+                alert(person.name + "입니다.");
+            }
+        }
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
